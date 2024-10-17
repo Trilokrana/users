@@ -53,7 +53,7 @@ Search and Filter: You can search by a user's name or email. The search query dy
 Logout Functionality: Logs out users and redirects to the login page.
 <br>
 
-<h4>Assumptions and Considerations</h4>h4><br>
+<h3>Assumptions and Considerations</h3><br>
 
 API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.<br>
 
