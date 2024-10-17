@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+Users List Application (with Search, Filtering, and Lazy Loading)
+This project is a simple user list application built with React, featuring search and filtering functionality, and lazy loading (infinite scroll) to optimize performance when dealing with a large number of users.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Getting Started
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-## Available Scripts
+Prerequisites
+Make sure you have the following installed:
 
-In the project directory, you can run:
+Node.js: Download and install Node.js from https://nodejs.org.
+npm (Node Package Manager): It comes with Node.js installation, but ensure you have the latest version by running:
+bash
+Copy code
+npm install -g npm
+Installation
+Clone the repository to your local machine:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/your-username/users-list-app.git
+cd users-list-app
+Install dependencies by running the following command in the root directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+npm install
+Running the Project
+To run the project in development mode, use the following command:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm start
+This will launch the application on http://localhost:3000. The page will automatically reload if you make any changes to the code.
 
-### `npm test`
+Build the Project
+To build the app for production, run:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+npm run build
+This will create an optimized build of the app, outputting the files to the build/ directory, ready for deployment.
 
-### `npm run build`
+Running Tests
+If you want to run tests (if any are implemented), use:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm test
+This will start the test runner in interactive watch mode.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Key Features
+User List: Fetches and displays a paginated list of users from an API.
+Search and Filter: You can search by a user's name or email. The search query dynamically filters the users list.
+Lazy Loading (Infinite Scroll): Users are loaded in chunks as the user scrolls down, optimizing the loading of large datasets.
+Logout Functionality: Logs out users and redirects to the login page.
+Assumptions and Considerations
+API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.
+Authentication: It assumes a user authentication system is in place. The token stored in localStorage is used to check whether the user is logged in.
+Responsive Design: The application is designed to be responsive, supporting mobile, tablet, and desktop views.
+Lazy Loading: The application uses infinite scrolling to fetch and display more users when the user scrolls to the bottom of the page.
+Search Functionality: The search is done client-side on the users that are already fetched and displayed. For large datasets, consider implementing server-side search.
