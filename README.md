@@ -44,13 +44,16 @@ If you want to run tests (if any are implemented), use:
 npm test
 This will start the test runner in interactive watch mode.
 
-<h4>Key Features</h4>h4>
-User List: Fetches and displays a paginated list of users from an API.
-Search and Filter: You can search by a user's name or email. The search query dynamically filters the users list.
+<h4>Key Features</h4>
+User List: Fetches and displays a paginated list of users from an API.<br>
+
+Search and Filter: You can search by a user's name or email. The search query dynamically filters the users list.<br>
+
 Logout Functionality: Logs out users and redirects to the login page.
-Assumptions and Considerations
-API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.
-Authentication: It assumes a user authentication system is in place. The token stored in localStorage is used to check whether the user is logged in.
-Responsive Design: The application is designed to be responsive, supporting mobile, tablet, and desktop views.
-Lazy Loading: The application uses infinite scrolling to fetch and display more users when the user scrolls to the bottom of the page.
-Search Functionality: The search is done client-side on the users that are already fetched and displayed. For large datasets, consider implementing server-side search.
+<br>
+
+Assumptions and Considerations<br>
+API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.<br>
+Authentication: It assumes a user authentication system is in place. The token stored in localStorage is used to check whether the user is logged in.<br>
+Responsive Design: The application is designed to be responsive, supporting mobile, tablet, and desktop views.<br>
+Search Functionality: The search is done client-side on the users that are already fetched and displayed. For large datasets, consider implementing server-side search.<br>
