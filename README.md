@@ -1,7 +1,7 @@
-Users List Application (with Search, Filtering, and Lazy Loading)
+<h1>Users List Application (with Search, Filtering)</h1>h1>
 This project is a simple user list application built with React, featuring search and filtering functionality, and lazy loading (infinite scroll) to optimize performance when dealing with a large number of users.
 
-Getting Started
+#Getting Started#
 These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
 Prerequisites
