@@ -12,15 +12,20 @@ npm (Node Package Manager): It comes with Node.js installation, but ensure you h
 <br>
 npm install -g npm
 <br>
+
 Installation:
 <br>
+
 Clone the repository to your local machine:<br>
+
 git clone https://github.com/Trilokrana/users.git<br>
 cd users<br>
+
 Install dependencies by running the following command in the root directory:<br>
 npm install
 <br>
-Running the Project
+
+Running the Project<br>
 To run the project in development mode, use the following command:<br>
 
 npm start
