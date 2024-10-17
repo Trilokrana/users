@@ -14,44 +14,32 @@ Copy code
 npm install -g npm
 Installation
 Clone the repository to your local machine:
-
-bash
-Copy code
-git clone https://github.com/your-username/users-list-app.git
-cd users-list-app
+git clone https://github.com/Trilokrana/users.git
+cd users
 Install dependencies by running the following command in the root directory:
-
-bash
-Copy code
 npm install
 Running the Project
 To run the project in development mode, use the following command:
 
-bash
-Copy code
 npm start
 This will launch the application on http://localhost:3000. The page will automatically reload if you make any changes to the code.
 
 Build the Project
 To build the app for production, run:
 
-bash
-Copy code
 npm run build
 This will create an optimized build of the app, outputting the files to the build/ directory, ready for deployment.
 
 Running Tests
 If you want to run tests (if any are implemented), use:
 
-bash
-Copy code
+
 npm test
 This will start the test runner in interactive watch mode.
 
-Key Features
+<h4>Key Features</h4>h4>
 User List: Fetches and displays a paginated list of users from an API.
 Search and Filter: You can search by a user's name or email. The search query dynamically filters the users list.
-Lazy Loading (Infinite Scroll): Users are loaded in chunks as the user scrolls down, optimizing the loading of large datasets.
 Logout Functionality: Logs out users and redirects to the login page.
 Assumptions and Considerations
 API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.
