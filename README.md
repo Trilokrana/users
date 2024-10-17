@@ -53,7 +53,8 @@ Search and Filter: You can search by a user's name or email. The search query dy
 Logout Functionality: Logs out users and redirects to the login page.
 <br>
 
-Assumptions and Considerations<br>
+<h4>Assumptions and Considerations</h4>h4><br>
+
 API Endpoint: The application fetches data from the ReqRes API (https://reqres.in/api/users). You can replace this with your own API if needed.<br>
 
 Authentication: It assumes a user authentication system is in place. The token stored in localStorage is used to check whether the user is logged in.<br>
