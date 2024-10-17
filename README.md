@@ -1,10 +1,10 @@
-<h1>Users List Application (with Search, Filtering)</h1>h1>
+<h1>Users List Application (with Search, Filtering)</h1>
 This project is a simple user list application built with React, featuring search and filtering functionality, and lazy loading (infinite scroll) to optimize performance when dealing with a large number of users.
 
-#Getting Started#
+<h3>Getting Started</h3>
 These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-Prerequisites
+<h4>Prerequisites</h4>
 Make sure you have the following installed:
 
 Node.js: Download and install Node.js from https://nodejs.org.
