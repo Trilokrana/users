@@ -7,10 +7,9 @@ These instructions will help you set up and run the project on your local machin
 <h4>Prerequisites</h4>
 Make sure you have the following installed:
 
-Node.js: Download and install Node.js from https://nodejs.org.
+Node.js: Download and install Node.js from https://nodejs.org.<br>
 npm (Node Package Manager): It comes with Node.js installation, but ensure you have the latest version by running:
-bash
-Copy code
+
 npm install -g npm
 Installation
 Clone the repository to your local machine:
