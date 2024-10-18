@@ -62,3 +62,6 @@ Authentication: It assumes a user authentication system is in place. The token s
 Responsive Design: The application is designed to be responsive, supporting mobile, tablet, and desktop views.<br>
 
 Search Functionality: The search is done client-side on the users that are already fetched and displayed. For large datasets, consider implementing server-side search.<br>
+
+<h2>Deployed Link :</h2><br>
+https://heartfelt-pastelito-c04573.netlify.app/
