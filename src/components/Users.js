@@ -119,7 +119,7 @@ const Users = () => {
         </button>
 
         <input
-          type="text"
+          type="search"
           value={searchQuery}
           onChange={handleSearchChange}
           placeholder="Search by name or email"
